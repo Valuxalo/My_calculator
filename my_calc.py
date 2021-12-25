@@ -29,12 +29,12 @@ class Ui_MainWindow(object):
         font.setStrikeOut(False)
         self.label_res.setFont(font)
         self.label_res.setStyleSheet("QLabel{\n"
-"color: white;\n"
-"background: #8FD589;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}")
+        "color: white;\n"
+        "background: #8FD589;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}")
         self.label_res.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
         self.label_res.setObjectName("label_res")
         self.btn_0 = QtWidgets.QPushButton(self.centralwidget)
@@ -46,15 +46,15 @@ class Ui_MainWindow(object):
         self.btn_0.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.btn_0.setAutoFillBackground(False)
         self.btn_0.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_0.setAutoDefault(False)
         self.btn_0.setDefault(True)
         self.btn_0.setFlat(False)
@@ -66,17 +66,17 @@ class Ui_MainWindow(object):
         font.setPointSize(35)
         self.btn_ravno.setFont(font)
         self.btn_ravno.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #898ED5;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"text-align: center;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #9196DA;\n"
-"}\n"
-"")
+        "color: white;\n"
+        "background: #898ED5;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "text-align: center;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #9196DA;\n"
+        "}\n"
+        "")
         self.btn_ravno.setAutoDefault(False)
         self.btn_ravno.setDefault(True)
         self.btn_ravno.setFlat(False)
@@ -88,15 +88,15 @@ class Ui_MainWindow(object):
         font.setPointSize(35)
         self.btn_1.setFont(font)
         self.btn_1.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_1.setAutoDefault(False)
         self.btn_1.setDefault(True)
         self.btn_1.setFlat(False)
@@ -109,15 +109,15 @@ class Ui_MainWindow(object):
         self.btn_2.setFont(font)
         self.btn_2.setAutoFillBackground(False)
         self.btn_2.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_2.setAutoDefault(True)
         self.btn_2.setDefault(True)
         self.btn_2.setFlat(False)
@@ -133,15 +133,15 @@ class Ui_MainWindow(object):
         self.btn_3.setFocusPolicy(QtCore.Qt.StrongFocus)
         self.btn_3.setAutoFillBackground(False)
         self.btn_3.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_3.setAutoDefault(True)
         self.btn_3.setDefault(True)
         self.btn_3.setFlat(False)
@@ -154,15 +154,15 @@ class Ui_MainWindow(object):
         font.setPointSize(35)
         self.btn_4.setFont(font)
         self.btn_4.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_4.setDefault(True)
         self.btn_4.setObjectName("btn_4")
         self.btn_5 = QtWidgets.QPushButton(self.centralwidget)
@@ -172,15 +172,15 @@ class Ui_MainWindow(object):
         font.setPointSize(35)
         self.btn_5.setFont(font)
         self.btn_5.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_5.setDefault(True)
         self.btn_5.setObjectName("btn_5")
         self.btn_6 = QtWidgets.QPushButton(self.centralwidget)
@@ -190,15 +190,15 @@ class Ui_MainWindow(object):
         font.setPointSize(35)
         self.btn_6.setFont(font)
         self.btn_6.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_6.setAutoDefault(False)
         self.btn_6.setDefault(True)
         self.btn_6.setObjectName("btn_6")
@@ -209,15 +209,15 @@ class Ui_MainWindow(object):
         font.setPointSize(35)
         self.btn_7.setFont(font)
         self.btn_7.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_7.setDefault(True)
         self.btn_7.setObjectName("btn_7")
         self.btn_8 = QtWidgets.QPushButton(self.centralwidget)
@@ -227,15 +227,15 @@ class Ui_MainWindow(object):
         font.setPointSize(35)
         self.btn_8.setFont(font)
         self.btn_8.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_8.setDefault(True)
         self.btn_8.setObjectName("btn_8")
         self.btn_9 = QtWidgets.QPushButton(self.centralwidget)
@@ -245,15 +245,15 @@ class Ui_MainWindow(object):
         font.setPointSize(35)
         self.btn_9.setFont(font)
         self.btn_9.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_9.setDefault(True)
         self.btn_9.setObjectName("btn_9")
         self.btn_c = QtWidgets.QPushButton(self.centralwidget)
@@ -268,16 +268,16 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_c.setFont(font)
         self.btn_c.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #898ED5;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"text-align: center;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #9196DA;\n"
-"}")
+        "color: white;\n"
+        "background: #898ED5;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "text-align: center;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #9196DA;\n"
+        "}")
         self.btn_c.setAutoRepeat(True)
         self.btn_c.setAutoDefault(False)
         self.btn_c.setDefault(True)
@@ -290,15 +290,15 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_plus.setFont(font)
         self.btn_plus.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_plus.setDefault(True)
         self.btn_plus.setObjectName("btn_plus")
         self.btn_minus = QtWidgets.QPushButton(self.centralwidget)
@@ -308,15 +308,15 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_minus.setFont(font)
         self.btn_minus.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_minus.setDefault(True)
         self.btn_minus.setObjectName("btn_minus")
         self.btn_mult = QtWidgets.QPushButton(self.centralwidget)
@@ -326,15 +326,15 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_mult.setFont(font)
         self.btn_mult.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_mult.setDefault(True)
         self.btn_mult.setObjectName("btn_mult")
         self.btn_divide = QtWidgets.QPushButton(self.centralwidget)
@@ -344,15 +344,15 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_divide.setFont(font)
         self.btn_divide.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_divide.setDefault(True)
         self.btn_divide.setObjectName("btn_divide")
         self.btn_sqrt = QtWidgets.QPushButton(self.centralwidget)
@@ -362,15 +362,15 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_sqrt.setFont(font)
         self.btn_sqrt.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_sqrt.setDefault(True)
         self.btn_sqrt.setObjectName("btn_sqrt")
         self.btn_sqr = QtWidgets.QPushButton(self.centralwidget)
@@ -380,15 +380,15 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_sqr.setFont(font)
         self.btn_sqr.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_sqr.setDefault(True)
         self.btn_sqr.setObjectName("btn_sqr")
         self.btn_fact = QtWidgets.QPushButton(self.centralwidget)
@@ -398,15 +398,15 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_fact.setFont(font)
         self.btn_fact.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_fact.setDefault(True)
         self.btn_fact.setObjectName("btn_fact")
         self.btn_pi = QtWidgets.QPushButton(self.centralwidget)
@@ -416,15 +416,15 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_pi.setFont(font)
         self.btn_pi.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #E78A9A;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #ED96A5;\n"
-"}")
+        "color: white;\n"
+        "background: #E78A9A;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #ED96A5;\n"
+        "}")
         self.btn_pi.setDefault(True)
         self.btn_pi.setObjectName("btn_pi")
         self.btn_delete1 = QtWidgets.QPushButton(self.centralwidget)
@@ -434,15 +434,15 @@ class Ui_MainWindow(object):
         font.setPointSize(20)
         self.btn_delete1.setFont(font)
         self.btn_delete1.setStyleSheet("QPushButton {\n"
-"color: white;\n"
-"background: #898ED5;\n"
-"border: 1px solid;\n"
-"border-color: white;\n"
-"border-radius: 5;\n"
-"}\n"
-"QPushButton:hover {\n"
-"background: #9196DA;\n"
-"}")
+        "color: white;\n"
+        "background: #898ED5;\n"
+        "border: 1px solid;\n"
+        "border-color: white;\n"
+        "border-radius: 5;\n"
+        "}\n"
+        "QPushButton:hover {\n"
+        "background: #9196DA;\n"
+        "}")
         self.btn_delete1.setAutoDefault(False)
         self.btn_delete1.setDefault(True)
         self.btn_delete1.setFlat(False)
@@ -477,3 +477,70 @@ class Ui_MainWindow(object):
         self.btn_fact.setText(_translate("MainWindow", "!"))
         self.btn_pi.setText(_translate("MainWindow", "π"))
         self.btn_delete1.setText(_translate("MainWindow", "<"))
+
+    def add_function(self):
+        self.btn_0.clicked.connect(lambda: self.write_number(self.btn_0.text()))
+        self.btn_1.clicked.connect(lambda: self.write_number(self.btn_1.text()))
+        self.btn_2.clicked.connect(lambda: self.write_number(self.btn_2.text()))
+        self.btn_3.clicked.connect(lambda: self.write_number(self.btn_3.text()))
+        self.btn_4.clicked.connect(lambda: self.write_number(self.btn_4.text()))
+        self.btn_5.clicked.connect(lambda: self.write_number(self.btn_5.text()))
+        self.btn_6.clicked.connect(lambda: self.write_number(self.btn_6.text()))
+        self.btn_7.clicked.connect(lambda: self.write_number(self.btn_7.text()))
+        self.btn_8.clicked.connect(lambda: self.write_number(self.btn_8.text()))
+        self.btn_9.clicked.connect(lambda: self.write_number(self.btn_9.text()))
+        self.btn_plus.clicked.connect(lambda: self.write_number(self.btn_plus.text()))
+        self.btn_minus.clicked.connect(lambda: self.write_number(self.btn_minus.text()))
+        self.btn_mult.clicked.connect(lambda: self.write_number(self.btn_mult.text()))
+        self.btn_divide.clicked.connect(lambda: self.write_number(self.btn_divide.text()))
+        self.btn_sqr.clicked.connect(lambda: self.write_number(self.btn_sqr.text()))
+        self.btn_sqrt.clicked.connect(lambda: self.write_number(self.btn_sqrt.text()))
+        self.btn_fact.clicked.connect(lambda: self.write_number(self.btn_fact.text()))
+        self.btn_pi.clicked.connect(lambda: self.write_number("3.1415"))
+
+
+
+        self.btn_c.clicked.connect(lambda: self.clear_number())
+        self.btn_delete1.clicked.connect(lambda: self.clear_number_1())
+        self.btn_ravno.clicked.connect(self.results)
+
+
+    def write_number(self, number):
+        if self.label_res.text() == "0":
+            self.label_res.setText(number)
+        else:
+            self.label_res.setText(self.label_res.text() + number)
+
+    def clear_number(self):
+        self.label_res.setText("0")
+
+    def clear_number_1(self):
+        self.label_res.setText(self.label_res.text()[0:-1])
+
+    def results(self):
+        if "!" in self.label_res.text():
+            x = self.label_res.text().find("!")
+            print(x)
+            a = self.label_res.text()[0:x]
+            print(a)
+            self.label_res.setText(str(self.fact(int(a))))
+        else:
+            res = eval(self.label_res.text())
+            self.label_res.setText(str(res))
+
+    def fact(self, n):
+        s = 1
+        for i in range(1, n+1):
+            s = s * i
+        return s
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    ui.add_function()
+    MainWindow.show()
+    sys.exit(app.exec_())
