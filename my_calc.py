@@ -51,9 +51,13 @@ class Ui_MainWindow(object):
         "border: 1px solid;\n"
         "border-color: white;\n"
         "border-radius: 5;\n"
+        "text-align: center;\n"
         "}\n"
         "QPushButton:hover {\n"
-        "background: #ED96A5;\n"
+        "background: #9196DA;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_0.setAutoDefault(False)
         self.btn_0.setDefault(True)
@@ -76,7 +80,9 @@ class Ui_MainWindow(object):
         "QPushButton:hover {\n"
         "background: #9196DA;\n"
         "}\n"
-        "")
+        "QPushButton:pressed {\n"
+        "background: #8D91C8;\n"
+        "}")
         self.btn_ravno.setAutoDefault(False)
         self.btn_ravno.setDefault(True)
         self.btn_ravno.setFlat(False)
@@ -96,6 +102,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_1.setAutoDefault(False)
         self.btn_1.setDefault(True)
@@ -117,6 +126,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_2.setAutoDefault(True)
         self.btn_2.setDefault(True)
@@ -141,6 +153,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_3.setAutoDefault(True)
         self.btn_3.setDefault(True)
@@ -162,6 +177,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_4.setDefault(True)
         self.btn_4.setObjectName("btn_4")
@@ -180,6 +198,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_5.setDefault(True)
         self.btn_5.setObjectName("btn_5")
@@ -198,6 +219,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_6.setAutoDefault(False)
         self.btn_6.setDefault(True)
@@ -217,6 +241,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_7.setDefault(True)
         self.btn_7.setObjectName("btn_7")
@@ -235,6 +262,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_8.setDefault(True)
         self.btn_8.setObjectName("btn_8")
@@ -253,6 +283,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_9.setDefault(True)
         self.btn_9.setObjectName("btn_9")
@@ -277,6 +310,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #9196DA;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #8D91C8;\n"
         "}")
         self.btn_c.setAutoRepeat(True)
         self.btn_c.setAutoDefault(False)
@@ -298,6 +334,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_plus.setDefault(True)
         self.btn_plus.setObjectName("btn_plus")
@@ -316,6 +355,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_minus.setDefault(True)
         self.btn_minus.setObjectName("btn_minus")
@@ -334,6 +376,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_mult.setDefault(True)
         self.btn_mult.setObjectName("btn_mult")
@@ -352,6 +397,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_divide.setDefault(True)
         self.btn_divide.setObjectName("btn_divide")
@@ -370,6 +418,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_sqrt.setDefault(True)
         self.btn_sqrt.setObjectName("btn_sqrt")
@@ -388,6 +439,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_sqr.setDefault(True)
         self.btn_sqr.setObjectName("btn_sqr")
@@ -406,6 +460,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_fact.setDefault(True)
         self.btn_fact.setObjectName("btn_fact")
@@ -424,6 +481,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #ED96A5;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #D68A97;\n"
         "}")
         self.btn_pi.setDefault(True)
         self.btn_pi.setObjectName("btn_pi")
@@ -442,6 +502,9 @@ class Ui_MainWindow(object):
         "}\n"
         "QPushButton:hover {\n"
         "background: #9196DA;\n"
+        "}\n"
+        "QPushButton:pressed {\n"
+        "background: #8D91C8;\n"
         "}")
         self.btn_delete1.setAutoDefault(False)
         self.btn_delete1.setDefault(True)
@@ -496,7 +559,7 @@ class Ui_MainWindow(object):
         self.btn_sqr.clicked.connect(lambda: self.write_number(self.btn_sqr.text()))
         self.btn_sqrt.clicked.connect(lambda: self.write_number(self.btn_sqrt.text()))
         self.btn_fact.clicked.connect(lambda: self.write_number(self.btn_fact.text()))
-        self.btn_pi.clicked.connect(lambda: self.write_number("3.1415"))
+        self.btn_pi.clicked.connect(lambda: self.write_number("π"))
 
 
 
@@ -524,6 +587,20 @@ class Ui_MainWindow(object):
             a = self.label_res.text()[0:x]
             print(a)
             self.label_res.setText(str(self.fact(int(a))))
+        elif "π" in self.label_res.text():
+            res = str(self.label_res.text())
+            res = res.replace('π', '3.14159')
+            self.label_res.setText(str(eval(res)))
+        elif "^" in self.label_res.text():
+            res = str(self.label_res.text())
+            res = res.replace('^', '**')
+            self.label_res.setText(str(eval(res)))
+        elif "√" in self.label_res.text():
+            if "√" == self.label_res.text()[0]:
+                res = str(self.label_res.text()[1:]) + "**0.5"
+            else:
+                res = str(self.label_res.text()[:-1]) + "**0.5"
+            self.label_res.setText(str(eval(res)))
         else:
             res = eval(self.label_res.text())
             self.label_res.setText(str(res))
