@@ -25,7 +25,7 @@ class Ui_MainWindow(object):
         self.label_res.setGeometry(QtCore.QRect(0, 0, 491, 61))
         font = QtGui.QFont()
         font.setFamily("Chilanka")
-        font.setPointSize(30)
+        font.setPointSize(27)
         font.setStrikeOut(False)
         self.label_res.setFont(font)
         self.label_res.setStyleSheet("QLabel{\n"
@@ -35,8 +35,7 @@ class Ui_MainWindow(object):
         "border-color: white;\n"
         "border-radius: 5;\n"
         "}")
-        self.label_res.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
-        self.label_res.setObjectName("label_res")
+        self.label_res.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignHCenter|QtCore.Qt.AlignLeft)
         self.btn_0 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_0.setGeometry(QtCore.QRect(0, 390, 200, 111))
         font = QtGui.QFont()
@@ -54,7 +53,7 @@ class Ui_MainWindow(object):
         "text-align: center;\n"
         "}\n"
         "QPushButton:hover {\n"
-        "background: #9196DA;\n"
+        "background: #ED96A5;\n"
         "}\n"
         "QPushButton:pressed {\n"
         "background: #D68A97;\n"
@@ -578,7 +577,10 @@ class Ui_MainWindow(object):
         self.label_res.setText("0")
 
     def clear_number_1(self):
-        self.label_res.setText(self.label_res.text()[0:-1])
+        if len(self.label_res.text()) == 1:
+            self.clear_number()
+        else:
+            self.label_res.setText(self.label_res.text()[0:-1])
 
     def results(self):
         if "!" in self.label_res.text():
@@ -586,24 +588,27 @@ class Ui_MainWindow(object):
             print(x)
             a = self.label_res.text()[0:x]
             print(a)
-            self.label_res.setText(str(self.fact(int(a))))
+            try:
+                res = str(self.fact(int(a)))
+            except:
+                self.clear_number_1()
         elif "π" in self.label_res.text():
             res = str(self.label_res.text())
             res = res.replace('π', '3.14159')
-            self.label_res.setText(str(eval(res)))
         elif "^" in self.label_res.text():
             res = str(self.label_res.text())
             res = res.replace('^', '**')
-            self.label_res.setText(str(eval(res)))
         elif "√" in self.label_res.text():
             if "√" == self.label_res.text()[0]:
                 res = str(self.label_res.text()[1:]) + "**0.5"
             else:
                 res = str(self.label_res.text()[:-1]) + "**0.5"
-            self.label_res.setText(str(eval(res)))
         else:
-            res = eval(self.label_res.text())
-            self.label_res.setText(str(res))
+            res = self.label_res.text()
+        try:
+            self.label_res.setText(str(eval(res)))
+        except:
+            self.clear_number_1()
 
     def fact(self, n):
         s = 1
