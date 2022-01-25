@@ -9,6 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QMessageBox
 
 
 class Ui_MainWindow(object):
@@ -608,7 +609,24 @@ class Ui_MainWindow(object):
         try:
             self.label_res.setText(str(eval(res)))
         except:
+            error = QMessageBox()
+            error.setWindowTitle("Error")
+            error.setText("Wrong expression :(")
+            error.setIcon(QMessageBox.Warning)
+            error.setStandardButtons(QMessageBox.Ok | QMessageBox.Reset)
+            error.setDefaultButton(QMessageBox.Ok)
+            error.setInformativeText("One sign removed")
+            #error.setDetailedText("Expression not exists")
+
+            error.buttonClicked.connect(self.popup_action)
+
+            error.exec_()
             self.clear_number_1()
+    def popup_action(self, btn):
+        if btn.text() == "Ok":
+            print("Print ok")
+        elif btn.text() == "Reset":
+            self.label_res.setText("0")
 
     def fact(self, n):
         s = 1
